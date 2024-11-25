@@ -1,11 +1,12 @@
-# showmd
+# Preview markdown files with `showmd`
+
 Quick and dirty way to preview markdown files in your webbrowser via the terminal.
 
 **Note:** Written for the `zsh` terminal on macOS.
 
 ## General concept
-From a `.md` file a `.html` file is created temporaliy, which is opened in a webbrowser.
-The tmp file is removed afterwards.
+A markdown file is temporarily converted into a HTML file.
+The script opens the HTML file in a webbrowser and deletes it afterwards.
 
 ## Usage
 In the terminal use the following command:
