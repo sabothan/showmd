@@ -1,8 +1,8 @@
 # Preview markdown files with `showmd`
 
-Quick and dirty way to preview markdown files in your webbrowser via the terminal.
+**Note:** Written for the `zsh` terminal on macOS, but should also work for `bash`.
 
-**Note:** Written for the `zsh` terminal on macOS.
+For the ones who love using the terminal, here is a workaround to open markdown files via the terminal in the browser, such that they will be displayed rendered (normally if you type `open -a "Firefox" example.md` just the raw file will be displayed in the browser).
 
 ## General concept
 A markdown file is temporarily converted into a HTML file.
