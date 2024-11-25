@@ -1,5 +1,5 @@
 # Quick and dirty way to preview markdown files in your browser by opening them with the terminal
-#   - `showmd <name_of_markdown_file>`
+#   - Usage: `showmd <name_of_markdown_file>`
 showmd() {
     file_path=$(realpath "${1}")
     file_name=$(basename "${file_path}")
