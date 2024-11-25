@@ -19,4 +19,4 @@ To install it do the following:
 
 1. Install `pandoc` with: `brew install pandoc`
 2. Place the CSS file [`pandoc.css`](./pandoc.css) into your home directory (`~/pandoc.css`)
-3. Add the contents of [`.zshrc`](./.zshrc) to your ZShell configuration file. It is located under `~/.zshrc`. (If it doesn't exist, you will need to create one)
+3. Add the contents of [`.zshrc`](./.zshrc) to your ZShell configuration file. It is located under `~/.zshrc`, if it doesn't exist, you will need to create one. (If you use `bash`, append the snippet to `~/.bashrc`)
